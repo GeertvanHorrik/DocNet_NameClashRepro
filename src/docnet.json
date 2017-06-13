@@ -1,0 +1,27 @@
+{
+    "Name" : "DocNet repro documentation",
+    "Source" : ".",
+    "Destination" : "../",
+    //"IncludeSource": "Includes",
+    "Theme" : "Default",
+    "ConvertLocalLinks" : true,
+    //"SourceFoldersToCopy" : ["images", "includes"],
+    "Footer" : "",
+    "Pages" : 
+    {
+		"Somestuff 1" :
+		{
+			"Introduction" : 
+			{
+				"Getting started" : "somestuff1/introduction/getting-started/page1.md",
+			},
+		},
+		"Somestuff 2" :
+		{
+			"Introduction" : 
+			{
+				"Getting started" : "somestuff2/introduction/getting-started/page2.md",
+			},
+		}
+    }
+}
